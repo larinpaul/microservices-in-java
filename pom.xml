@@ -1,4 +1,13 @@
 <!-- https://javatechonline.com/microservices-in-java/ -->
+
+<!-- What is Service Registration & Discovery? -->
+<!-- 
+They need to detect each other to communicate
+This is similar to Java's RMI mechanism,
+where you can work with a central registry 
+so that RMI processes could find each other.
+Microservices has the same obligation -->
+
 <!-- How to enable Load Balancer? -->
 
 <!-- We could use `Ribbon` with Spring Boot in the past to enable load-balancing -->
