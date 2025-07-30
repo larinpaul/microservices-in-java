@@ -1,0 +1,16 @@
+<!-- https://javatechonline.com/microservices-in-java/ -->
+<!-- How to enable Load Balancer? -->
+
+<!-- We could use `Ribbon` with Spring Boot in the past to enable load-balancing -->
+<!-- Now we can use `Feign Client` & `Eureka` -->
+<!-- Below is the dependency to include `Feign Client`. -->
+
+<dependency>
+<groupId>org.springframework.cloud</groupId>
+<artifactId>spring-cloud-starter-openfeign</artifactId>
+</dependency>
+<!-- 
+In order to work on Feign Client, we can check out
+`How to use Feign as a REST client and Load Balancer?`
+https://javatechonline.com/how-to-implement-feign-client-in-spring-boot-microservices/
+ -->
