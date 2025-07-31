@@ -49,3 +49,16 @@ How to Register & Discover Microservices Using Netflix Eureka
 in the context of Microservices in Java
 https://javatechonline.com/how-to-register-microservices-in-eureka-server/ -->
 
+
+<!-- What is API Gateway? -->
+
+API Gatewat is the single entry & exit point of all the microservices in the application
+It is also a type of microservice,
+that calls all other microservices using Eureka
+and it should also be registered with Eureka Server like other microservices.
+It generates a class(proxy) based on the service Id provided with the path(URL) using a load balancer client.
+Then it selects one Service Instance from Eureka and makes the HTTP call.
+...
+Eureka never supports making HTTP call to any microservice.
+API Gateway helps in implementing Security, applying filters, SSO(Single Sing On), routing etc.
+
