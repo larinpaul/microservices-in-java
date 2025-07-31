@@ -62,3 +62,17 @@ Then it selects one Service Instance from Eureka and makes the HTTP call.
 Eureka never supports making HTTP call to any microservice.
 API Gateway helps in implementing Security, applying filters, SSO(Single Sing On), routing etc.
 
+<!-- Zuul Proxy Server -->
+<!-- 
+Handles all the requests and does the dynamic routing of Microservices
+Dynamic routing is nothing but choosing one microservice instance
+and make HTTP call based on the load
+We also sometimes call it as Zuul Server or Edge Server
+We add the @EnableZuulProxy annotation on our main application class
+ -->
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-zuul</artifactId>
+</dependency>
+<!-- ♥ Note : Newer versions of Spring Boot suggests us to use Spring Cloud Gateway in place of Zuul. -->
+
