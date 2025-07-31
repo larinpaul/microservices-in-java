@@ -23,3 +23,29 @@ In order to work on Feign Client, we can check out
 `How to use Feign as a REST client and Load Balancer?`
 https://javatechonline.com/how-to-implement-feign-client-in-spring-boot-microservices/
  -->
+
+
+<!-- Netflix Eureka -->
+<!-- 
+Netflix Eureka is used to make a kind of server
+which can register the microservices & discover them 
+whe required by other microservice.
+...
+Every Microservice will register into the Eureka server with a service id
+and Eukera server will have information (port, IP addresses etc.)
+of all the microservices running as client applications
+...
+A service (Spring Boot Appliction in our case)
+annotated with @EnableEurekaServer
+will work as Eureka server. -->
+<dependency>
+<!-- Eureka for service registration -->
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-eureka-server</artifactId>
+</dependency>
+<!-- 
+Additionally, you can see 
+How to Register & Discover Microservices Using Netflix Eureka
+in the context of Microservices in Java
+https://javatechonline.com/how-to-register-microservices-in-eureka-server/ -->
+
