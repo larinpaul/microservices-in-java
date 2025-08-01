@@ -97,4 +97,10 @@ Some important features of the Spring Cloud Gateway are:
  -->
 
 
+<!-- What is a Circuit Breaker? -->
+<!-- 
+If the actual method of a microservice is continuously throwing exception,
+then stop executing actual method and redirect each request
+to a fallback method, such concept is called Circuit Breaker.
+ -->
 
