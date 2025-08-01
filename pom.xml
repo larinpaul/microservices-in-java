@@ -84,6 +84,9 @@ It also offers implementation of various cross cutting concerns
 such as Security, Logging, Monitoring/metrics etc.
 It is built on top of Spring Webflux (A reactive programming approach)
  -->
-
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-gateway</artifact>
+</dependency>
 
 
