@@ -76,3 +76,14 @@ We add the @EnableZuulProxy annotation on our main application class
 </dependency>
 <!-- ♥ Note : Newer versions of Spring Boot suggests us to use Spring Cloud Gateway in place of Zuul. -->
 
+
+<!-- Spring Cloud Gateway -->
+<!-- 
+Spring Cloud Gateway is a simple, yet an effective way to route to APIs.
+It also offers implementation of various cross cutting concerns 
+such as Security, Logging, Monitoring/metrics etc.
+It is built on top of Spring Webflux (A reactive programming approach)
+ -->
+
+
+
