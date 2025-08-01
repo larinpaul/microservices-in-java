@@ -88,5 +88,13 @@ It is built on top of Spring Webflux (A reactive programming approach)
   <groupId>org.springframework.cloud</groupId>
   <artifactId>spring-cloud-starter-gateway</artifact>
 </dependency>
+<!-- 
+Some important features of the Spring Cloud Gateway are:
+1) Match routes on any request attribute
+2) Define Predicates & Filters
+3) Integrates with Spring Cloud Discovery Client (Load Balancing)
+4) Path Rewriting
+ -->
+
 
 
