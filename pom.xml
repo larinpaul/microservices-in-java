@@ -114,3 +114,12 @@ at RestController method level.
   <groupId>org.springframework.cloud</groupId>
   <artifactId>spring-cloud-starter-hystrix</artifactId>
 </dependency>
+
+
+<!-- What is Fault Tolerance in Microservices? -->
+<!-- 
+...
+In order to implement complete Fault Tolerance,
+even including circuit breaker, we use Resilience4j API. It has multiple separate modules such as Rate Limiter, Time Limiter, Bulkhead, Circuit Breaker, Retry etc. We have separate annotations for each functionality as @RateLimiter, @TimeLimiter, @Bulkhead, @CircuitBreaker, @Retry respectively. However, we can also implement these functionalities programmatically by using Decorator pattern. Moreover, we require below dependencies to implement Resilience4j. Additionally, you can visit our detailed article on ‘How To Implement Fault Tolerance In Microservices Using Resilience4j?‘ in the context of Microservices in Java..
+ -->
+
