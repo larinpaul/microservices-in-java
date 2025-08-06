@@ -133,4 +133,8 @@ even including circuit breaker, we use Resilience4j API. It has multiple separat
 <artifactId>srping-boot-starter-actuator<artifactId>
 </dependency>
 
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-app</artifactId>
+</dependency>
 
