@@ -140,7 +140,7 @@ even including circuit breaker, we use Resilience4j API. It has multiple separat
 
 
 <!-- What is Spring Cloud Config Server? -->
-
+<!-- 
 In short, we also call it Config server.
 If we have same 'key=value' properties in ever microservice,
 then we can define all of them in one common properties file
@@ -155,7 +155,15 @@ by using GitHub, GitLab, Bitbucket etc.
 We can implement Native Config Server 
 just by uisng local drivers of our system
 which is appropriate only for development environment
-
+ -->
+<!--  
+Moreover, we add the @EnableConfigServer annotation on our main application class
+to make our Spring Boot application act as a Config Server.
+ -->
+<dependency>
+  <gorupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-config-server</artifactId>
+</dependency>
 
 
 
