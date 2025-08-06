@@ -127,3 +127,10 @@ even including circuit breaker, we use Resilience4j API. It has multiple separat
 <groupId>org.springframework.cloud</groupId>
 <artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
 </dependency>
+
+<dependency>
+<gorupId>org,springframework.boot</groupId>
+<artifactId>srping-boot-starter-actuator<artifactId>
+</dependency>
+
+
